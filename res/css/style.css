@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&family=Titillium+Web:wght@200&display=swap');
+html{
+    background-color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+*{
+    user-select: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#point{
+    width: 50px;
+    height: 50px;
+    border: 3px solid darkblue;
+    background-color: blue;
+    border-radius: 100%;
+    top: 400px;
+    position: absolute;
+    left: 700px;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+#point:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px blue;
+}
+#startGame{
+    font-size: 40px;
+    background-color: palevioletred;
+    cursor: pointer;
+    transition: .2 ease;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#StartGame:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 50px palevioletred;
+}
