@@ -14,8 +14,8 @@ body{
 }
 
 #point{
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     border: 3px solid darkblue;
     background-color: blue;
     border-radius: 100%;
@@ -23,7 +23,7 @@ body{
     position: absolute;
     left: 700px;
     transition: .3s;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -32,6 +32,7 @@ body{
 #point:hover{
     cursor: pointer;
     box-shadow: 0 0 10px blue;
+    
 }
 #startGame{
     font-size: 40px;
